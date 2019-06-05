@@ -24,6 +24,7 @@ nav{
 section{
     grid-area: section;
     background-color: purple;
+
 }
 aside{
     grid-area: aside;
@@ -39,5 +40,18 @@ header div img{
 }
 
 header div{
+background-color: grey
 
 }
+
+nav a{
+    color: black;
+    text-decoration: beige;
+    font-family: 'roboto' sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    
+    
+}
+
+
