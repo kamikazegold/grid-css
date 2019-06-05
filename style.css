@@ -6,14 +6,14 @@ body{
                          "section section section aside"
                          'footer footer footer footer';
     grid-template-rows: 20vh 15vh 50vh 30vh;
-    /*grid-auto-columns: 10vw 30vw 40vw 20vw;*/
+    grid-auto-columns:  25% 25% 25% 25%;
     grid-gap: 10px;
     background-color: black
 }
 
 header{
     grid-area: header;
-    background-color: gray;
+    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -24,11 +24,19 @@ nav{
 section{
     grid-area: section;
     background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center
 
 }
 aside{
     grid-area: aside;
     background-color: green;
+    align-items: center;
+    padding: 10px 20px 30px 40px;
+    display: flex;
+    text-align: center
+
 }
 footer{
     grid-area: footer;
@@ -40,18 +48,32 @@ header div img{
 }
 
 header div{
-background-color: grey
+background-color: gray;
+border-radius: 10px;
+display: flex;
+grid-area: header;
+justify-content: center;
+width: 50%;
 
 }
 
+aside p{
+    color: white;
+    font-family: "roboto" sens-
+}
 nav a{
     color: black;
     text-decoration: beige;
     font-family: 'roboto' sans-serif;
     font-weight: 800;
     text-decoration: none;
-    
+
     
 }
+ section img{
+     width: 50x;
+     border-radius: 100%
+ }
 
+ 
 
