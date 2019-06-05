@@ -29,18 +29,26 @@ section{
     justify-content: center
 
 }
+section img{
+    width: 300px;
+    
+}
 aside{
     grid-area: aside;
     background-color: green;
     align-items: center;
     padding: 10px 20px 30px 40px;
     display: flex;
-    text-align: center
+    text-align: center;
+
 
 }
+
 footer{
     grid-area: footer;
     background-color: yellow;
+    display: flex;
+    justify-content: center
 }
 header div img{
     height: 100%;
@@ -75,5 +83,12 @@ nav a{
      border-radius: 100%
  }
 
- 
+ footer img{
+     
+     width: 40px;
+     height: 30px;
+
+
+     
+ }
 
